@@ -2,7 +2,7 @@ from telethon import TelegramClient, events
 
 api_id = '23963854'
 api_hash = 'cfbe95064159720206325bf9a4fabea6'
-channel_source = 'https://t.me/shitpostingdao'  # ссылка на канал, откуда берем новости
+channel_source = ['https://t.me/shitpostingdao', 'https://t.me/testetstetstst']  # ссылка на канал, откуда берем новости
 
 
 def telegram_parser(send_message_func=None, loop=None):
