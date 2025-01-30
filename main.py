@@ -2,10 +2,10 @@ from telethon import TelegramClient, events
 import os
 import asyncio
 
-api_id = '1329310'
-api_hash = '4847c5c30cb196564ad3c0b1db18ada8'
+api_id = '23963854'
+api_hash = 'cfbe95064159720206325bf9a4fabea6'
 channels_file = 'channels.txt'  # Файл для хранения ссылок на каналы
-target_channel = -1002486735622  # Ссылка на канал, куда отправляем новости
+target_channel = -1002295023854  # Ссылка на канал, куда отправляем новости
 admin_user_id = 671873653  # ID администратора, который может добавлять и удалять каналы
 
 
